@@ -1,0 +1,60 @@
+body {
+  background-color: #fee7e7;
+  margin: 0 10%;
+  font-family: "Comfortaa", sans-serif;
+}
+
+a:link {
+  color: #00CED1;
+}
+
+a:visited {
+  color: #DC143C;
+}
+
+a:focus, a:hover {
+  color: #FF69B4;
+}
+
+a:active {
+  color: #008B8B;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: left;
+  font-family: "Send Flowers", cursive;
+  font-weight: normal;
+  font-size: 3em;
+  border-bottom: 2px solid #000000;
+  margin-top: 30px;
+  text-shadow: .05em .05em .1em lightslategray;
+}
+
+h2 {
+  color: #800101;
+  font-size: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+}
+
+footer {
+  border-top: 2px solid #000000;
+  text-align: center;
+  padding-top: 1em;
+}
