@@ -5,15 +5,15 @@ body {
 }
 
 a:link {
-  color: #00CED1;
+  color: #fd4e4e;
 }
 
 a:visited {
-  color: #DC143C;
+  color: #fd4e4e;
 }
 
 a:focus, a:hover {
-  color: #FF69B4;
+  color: #00CED1;
 }
 
 a:active {
@@ -28,12 +28,20 @@ h1 {
   font-size: 3em;
   border-bottom: 2px solid #000000;
   margin-top: 30px;
-  text-shadow: .05em .05em .1em lightslategray;
+  text-shadow: .03em .03em .1em lightslategray;
 }
 
 h2 {
   color: #800101;
-  font-size: 1em;
+  font-size: 1.5em;
+}
+
+strong {
+  color: #e30202;
+}
+
+img[src*="controller"] {
+  float: left;
 }
 
 nav ul {
@@ -43,6 +51,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  align-items: baseline;
 }
 
 nav ul li a {
